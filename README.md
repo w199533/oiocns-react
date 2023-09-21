@@ -1,15 +1,17 @@
 # 奥集能平台前端
 
-
 ![Image text](https://user-images.githubusercontent.com/8328012/201800690-9f5e989e-4ed3-4817-85b9-b594ac89fd31.png)
 
 ## 简介
 
-奥集能是面向下一代互联网发展趋势，基于动态演化的复杂系统多主体建模方法，以所有权作为第一优先级，运用零信任安全机制，按自组织分形理念提炼和抽象“沟通、办事、存储、流通和设置”等基础功能，为b端和c端融合的全场景业务的提供新一代分布式应用架构。    
+奥集能是面向下一代互联网发展趋势，基于动态演化的复杂系统多主体建模方法，以所有权作为第一优
+先级，运用零信任安全机制，按自组织分形理念提炼和抽象“沟通、办事、存储、流通和设置”等基础功
+能，为 b 端和 c 端融合的全场景业务的提供新一代分布式应用架构。
 
 本存储是资产共享云的前端 react 实现。
-- 体验地址：https://orginone.cn 
-- 预览版：https://asset.orginone.cn 
+
+- 体验地址：https://orginone.cn
+- 预览版：https://asset.orginone.cn
 - 注册账号后可以申请加入一起研究群：research
 
 ### 项目目录
@@ -64,20 +66,19 @@
 
 ### 技术栈及代码规范
 
- 本项目开发使用的主要技术栈为 **React 全家桶、Type Script、Less**，用来完成项目的框架、样式以及逻辑交互。配合使用 **EsLint 语法检查规则**，**Ant Design**、**Ant Design Pro** UI 组件库，**React-Query**缓存技术，以及其它的一些前端第三方包。
+本项目开发使用的主要技术栈为 **React 全家桶、Type Script、Less**，用来完成项目的框架、样式
+以及逻辑交互。配合使用 **EsLint 语法检查规则**，**Ant Design**、**Ant Design Pro** UI 组件
+库，**React-Query**缓存技术，以及其它的一些前端第三方包。
 
 代码规范请前往 **project/rules** 文件夹下查看编码规则和规范。
 
-[css规范](./docs/style-guide.md)
-[敏捷规范](./docs/scrum-guid.md)
-<<<<<<< HEAD
-=======
-[icon规范](./docs/icon-guid.md)
->>>>>>> 51b118c7f69226cfcafb9ef42ed80e27a36b3ff0
+[css 规范](./docs/style-guide.md) [敏捷规范](./docs/scrum-guid.md)
+[icon 规范](./docs/icon-guid.md)
 
 ### 项目依赖环境、安装和运行
 
-资产共享云是基于 **node 14+** 以上的环境运行，通过 **yarn** 或者 **npm install** 下载安装项目依赖包，并通过**npm run serve** 命令本地运行项目。
+资产共享云是基于 **node 14+** 以上的环境运行，通过 **yarn** 或者 **npm install** 下载安装
+项目依赖包，并通过**npm run serve** 命令本地运行项目。
 
 ### 参与贡献
 
@@ -86,14 +87,16 @@
 2. 项目开发
    1. 按照资产共享云项目的编码规则，对代码进行开发。
 3. 跟上主项目的步伐
-   1. 在你开发的过程中，主项目的代码也可能在更新。此时就需要你同步主项目的代码，找到 **Pull request** 按钮，点击。
-   2. 在左侧选择你的存储的项目，右侧为主项目，此时你能在下面看到两个项目的区别，**点击 create pull request 按钮。**
+   1. 在你开发的过程中，主项目的代码也可能在更新。此时就需要你同步主项目的代码，找到
+      **Pull request** 按钮，点击。
+   2. 在左侧选择你的存储的项目，右侧为主项目，此时你能在下面看到两个项目的区别，**点击
+      create pull request 按钮。**
    3. 填写 title，**点击 create pull request 按钮。**
-   4. 进入 pull request 页面，拉到最下面，**点击 Merge pull request 按钮并确认，**现在你和主项目的代码就是同步的了。
+   4. 进入 pull request 页面，拉到最下面，**点击 Merge pull request 按钮并确认，**现在你和
+      主项目的代码就是同步的了。
 4. Pull request
-   1. 当你觉得你的代码开发完成，可以推送时，在确保你的修改全部推送到了你的存储的项目中，然后进入你的存储的项目页面，**点击 New pull request 按钮**，
+   1. 当你觉得你的代码开发完成，可以推送时，在确保你的修改全部推送到了你的存储的项目中，然
+      后进入你的存储的项目页面，**点击 New pull request 按钮**，
    2. 然后**点击 create pull request 按钮**进行代码提交。
 5. 审核
    1. 待项目的开发者审批完成之后，就是贡献成功了。
-
-
